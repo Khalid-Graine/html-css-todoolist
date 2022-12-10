@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+.theheader {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.theheader img {
+    width: 60px;
+}
+
+.theheader span {
+    padding: 0 10px 0px 10px;
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+.containe {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 820px;
+    background-color: #f1f1f1;
+}
+
+.task {
+    margin-top: 30px;
+    background-color: white;
+    width: 70%;
+    height: 770px;
+    border-radius: 20px;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    border-radius: 0 0 10px 10px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.button-one {
+    background-color: #49b5ee;
+    color: white;
+}
+
+.button-two {
+    background-color: rgba(238, 238, 238, 0.845);
+    color: gray;
+}
+
+.button-one,
+.button-two {
+    font-weight: bold;
+    font-size: 1em;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 10px;
+}
+
+.parent {
+    padding-left: 70px;
+}
+
+.titre {
+    position: relative;
+    margin: 20px 0px;
+}
+
+.titre p span {
+    width: fit-content;
+    background-color: aqua;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 2em;
+    padding: 10px 0px 0px 11px;
+}
+
+.titre h2::before {
+    content: "";
+    position: absolute;
+    left: -24px;
+    top: 31px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black transparent transparent transparent;
+}
+
+.icone-true {
+    width: fit-content;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-left: -23px;
+    height: 50px;
+}
+
+.icone-true img {
+    width: 20px;
+}
+
+.icone-true p {
+    font-size: 18px;
+    margin: 0px 10px 0px 15px;
+}
+
+
+.edtorial,
+.mobile,
+.website,
+.saves,
+.likes,
+.comment {
+    color: white;
+    padding: 7px 12px;
+    border-radius: 18px;
+    font-weight: 100;
+}
+
+.edtorial {
+    background-color: 	#FF00FF;
+}
+
+.mobile {
+    background-color:#8A2BE2;
+}
+
+.website {
+    background-color:#9ACD32;
+}
+
+.saves {
+    background-color: 	#7B68EE;
+}
+
+.likes {
+    background-color: rgb(255, 161, 176);
+}
+
+.comment {
+    background-color:	#800080	;
+}
